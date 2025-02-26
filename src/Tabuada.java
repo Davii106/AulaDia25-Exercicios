@@ -11,6 +11,8 @@ public class Tabuada {
         for (int i = 0;i <= 10;i++){
         //Este print irá imprimir a tabuada do número inicialemente atribuido pelo úsario, indo de 0 a 10
             System.out.println(numero+"x" +i+ " = " + numero * i);
+
+             ler.close();
         }
     }
 }
